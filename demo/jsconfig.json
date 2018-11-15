@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "target": "es6",
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true,
+      "paths": {
+        "react-window-paginated": [
+          "../src"
+        ],
+      }
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }
+  
