@@ -11,6 +11,7 @@
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.dev.js",
     "build": "webpack --config ./webpack.prod.js",
+    "publishDemo": "npm run build && cd ../ && git subtree push --prefix demo/dist origin gh-pages",
     "postinstall": "cd ../ && npm install --no-shrinkwrap",
     "lint": "eslint **/*.js --ignore-pattern node_modules/",
     "lint:fix": "npm run lint -- --fix"
